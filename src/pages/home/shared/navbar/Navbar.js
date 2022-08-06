@@ -5,11 +5,11 @@ const Navbar = () => {
   const menuItems=<>
    <li><a href=' '>Home</a></li>
 
-<li><Link to={}>Appointment</Link></li>
-<li><Link to={}>Review</Link></li>
-<li><Link to={}>Contact</Link></li>
-<li><Link to={}>About</Link></li>
-<li><Link to={}>Login</Link></li></>
+<li><Link to={'/appointment'}>Appointment</Link></li>
+<li><Link to={'/review'}>Review</Link></li>
+<li><Link to={'/contact'}>Contact</Link></li>
+<li><Link to={'/about'}>About</Link></li>
+<li><Link to={'/login'}>Login</Link></li></>
     return (
         <div className="navbar bg-base-100">
         <div className="navbar-start">
